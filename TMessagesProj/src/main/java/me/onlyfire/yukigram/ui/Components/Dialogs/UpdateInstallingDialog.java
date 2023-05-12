@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components.Dialogs;
+package me.onlyfire.loligram.ui.Components.Dialogs;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -5,7 +5,7 @@
  *
  * Copyright Laky64, 2021-2022.
  */
-package me.onlyfire.yukigram.ui.Components;
+package me.onlyfire.loligram.ui.Components;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

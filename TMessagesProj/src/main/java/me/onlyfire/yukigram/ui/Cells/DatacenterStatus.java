@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells;
+package me.onlyfire.loligram.ui.Cells;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -30,10 +30,10 @@ import org.telegram.ui.Components.TextStyleSpan;
 import java.util.Locale;
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.utils.DCHelper;
-import me.onlyfire.yukigram.ui.Components.RadialProgressView;
-import me.onlyfire.yukigram.ui.Components.Shimmer;
-import me.onlyfire.yukigram.ui.Components.ShimmerFrameLayout;
+import me.onlyfire.loligram.android.utils.DCHelper;
+import me.onlyfire.loligram.ui.Components.RadialProgressView;
+import me.onlyfire.loligram.ui.Components.Shimmer;
+import me.onlyfire.loligram.ui.Components.ShimmerFrameLayout;
 
 public class DatacenterStatus extends LinearLayout {
 

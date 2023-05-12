@@ -12,8 +12,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
 
-import me.onlyfire.yukigram.android.Extra;
-import me.onlyfire.yukigram.android.StoreUtils;
+import me.onlyfire.loligram.android.Extra;
+import me.onlyfire.loligram.android.StoreUtils;
 import com.android.billingclient.api.ProductDetails;
 
 import java.util.Objects;
@@ -78,7 +78,7 @@ public class BuildVars {
     private static Boolean standaloneApp;
     public static boolean isStandaloneApp() {
         if (standaloneApp == null) {
-            standaloneApp = ApplicationLoader.applicationContext != null && "me.onlyfire.yukigram".equals(ApplicationLoader.applicationContext.getPackageName());
+            standaloneApp = ApplicationLoader.applicationContext != null && "me.onlyfire.loligram".equals(ApplicationLoader.applicationContext.getPackageName());
         }
         return standaloneApp;
     }
@@ -86,7 +86,7 @@ public class BuildVars {
     private static Boolean betaApp;
     public static boolean isBetaApp() {
         if (betaApp == null) {
-            betaApp = ApplicationLoader.applicationContext != null && "me.onlyfire.yukigram.beta".equals(ApplicationLoader.applicationContext.getPackageName());
+            betaApp = ApplicationLoader.applicationContext != null && "me.onlyfire.loligram.beta".equals(ApplicationLoader.applicationContext.getPackageName());
         }
         return betaApp;
     }

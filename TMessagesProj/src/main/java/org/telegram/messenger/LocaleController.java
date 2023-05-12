@@ -45,8 +45,8 @@ import java.util.HashSet;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.LanguageController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.LanguageController;
 
 public class LocaleController {
 

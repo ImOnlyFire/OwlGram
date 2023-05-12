@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components.Dialogs;
+package me.onlyfire.loligram.ui.Components.Dialogs;
 
 import android.content.Context;
 import android.content.Intent;
@@ -30,7 +30,7 @@ import org.telegram.ui.Components.StickerImageView;
 
 import java.util.Map;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 @RequiresApi(api = Build.VERSION_CODES.S)
 public class AppLinkVerifyBottomSheet extends OnceBottomSheet {

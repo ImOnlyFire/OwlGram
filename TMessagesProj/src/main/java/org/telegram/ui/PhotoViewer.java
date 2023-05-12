@@ -267,14 +267,14 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.media.VideoUtils;
-import me.onlyfire.yukigram.android.utils.ForwardContext;
-import me.onlyfire.yukigram.android.MessageHelper;
-import me.onlyfire.yukigram.ui.DoNotTranslateSettings;
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.translator.TranslatorHelper;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.media.VideoUtils;
+import me.onlyfire.loligram.android.utils.ForwardContext;
+import me.onlyfire.loligram.android.MessageHelper;
+import me.onlyfire.loligram.ui.DoNotTranslateSettings;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.translator.TranslatorHelper;
 
 @SuppressLint("WrongConstant")
 @SuppressWarnings("unchecked")

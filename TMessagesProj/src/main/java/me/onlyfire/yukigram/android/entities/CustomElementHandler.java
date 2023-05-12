@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.entities;
+package me.onlyfire.loligram.android.entities;
 
 import android.text.Editable;
 import android.text.Spannable;

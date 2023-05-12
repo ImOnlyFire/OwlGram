@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -18,8 +18,8 @@ import org.telegram.ui.Cells.TextInfoPrivacyCell;
 import org.telegram.ui.Cells.TextSettingsCell;
 import org.telegram.ui.GroupCreateActivity;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.translator.AutoTranslateConfig;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.translator.AutoTranslateConfig;
 
 public class AutoTranslateSettings extends BaseSettingsActivity {
 

@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "834341133607",
-    "project_id": "yukigram",
-    "storage_bucket": "yukigram.appspot.com"
+    "project_id": "loligram",
+    "storage_bucket": "loligram.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:834341133607:android:ba6e3f86108b5ab34e9d02",
         "android_client_info": {
-          "package_name": "me.onlyfire.yukigram"
+          "package_name": "me.onlyfire.loligram"
         }
       },
       "oauth_client": [
@@ -38,7 +38,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:834341133607:android:2deecb225ce0b6fa4e9d02",
         "android_client_info": {
-          "package_name": "me.onlyfire.yukigram.beta"
+          "package_name": "me.onlyfire.loligram.beta"
         }
       },
       "oauth_client": [

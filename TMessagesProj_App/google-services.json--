@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "834341133607",
+    "project_id": "yukigram",
+    "storage_bucket": "yukigram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834341133607:android:ba6e3f86108b5ab34e9d02",
+        "android_client_info": {
+          "package_name": "me.onlyfire.yukigram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834341133607-6ja0s95jsr99gum6j6cmpoo4s2280s9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBESIJ-sSYuqCnFmQPFJhJy_GcilAxRlTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834341133607-6ja0s95jsr99gum6j6cmpoo4s2280s9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834341133607:android:2deecb225ce0b6fa4e9d02",
+        "android_client_info": {
+          "package_name": "me.onlyfire.yukigram.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834341133607-6ja0s95jsr99gum6j6cmpoo4s2280s9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBESIJ-sSYuqCnFmQPFJhJy_GcilAxRlTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834341133607-6ja0s95jsr99gum6j6cmpoo4s2280s9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

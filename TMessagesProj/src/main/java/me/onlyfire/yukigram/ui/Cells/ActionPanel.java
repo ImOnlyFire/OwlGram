@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells;
+package me.onlyfire.loligram.ui.Cells;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,9 +13,9 @@ import org.telegram.ui.Components.RLottieImageView;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import me.onlyfire.yukigram.ui.Cells.Dynamic.BaseButtonCell;
-import me.onlyfire.yukigram.ui.Cells.Dynamic.ButtonCell;
-import me.onlyfire.yukigram.ui.Cells.Dynamic.ThemeInfo;
+import me.onlyfire.loligram.ui.Cells.Dynamic.BaseButtonCell;
+import me.onlyfire.loligram.ui.Cells.Dynamic.ButtonCell;
+import me.onlyfire.loligram.ui.Cells.Dynamic.ThemeInfo;
 
 @SuppressLint("ViewConstructor")
 public class ActionPanel extends LinearLayout {

@@ -335,7 +335,7 @@ public class SessionCell extends FrameLayout {
             colorKey2 = Theme.key_avatar_background2Cyan;
         } else if (platform.contains("android")) {
             iconId = deviceModel.contains("tab") ? R.drawable.device_tablet_android : R.drawable.device_phone_android;
-            if (app_name.contains("yukigram")) {
+            if (app_name.contains("loligram")) {
                 colorValue = Color.parseColor("#4285F4");
                 iconId = R.drawable.device_phone_owlgram;
             } else {

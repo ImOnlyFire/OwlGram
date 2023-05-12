@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android;
+package me.onlyfire.loligram.android;
 
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
 
@@ -12,13 +12,13 @@ import org.telegram.ui.ActionBar.Theme;
 import java.util.Calendar;
 import java.util.Date;
 
-import me.onlyfire.yukigram.android.magic.OWLENC;
-import me.onlyfire.yukigram.android.magic.OptionalMagic;
-import me.onlyfire.yukigram.android.translator.AutoTranslateConfig;
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.DeepLTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.camera.CameraXUtils;
+import me.onlyfire.loligram.android.magic.OWLENC;
+import me.onlyfire.loligram.android.magic.OptionalMagic;
+import me.onlyfire.loligram.android.translator.AutoTranslateConfig;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.DeepLTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.camera.CameraXUtils;
 
 public class OwlConfig extends SettingsController {
     public static final int TAB_TYPE_TEXT = 0;

@@ -43,7 +43,7 @@ import org.telegram.ui.ChatBackgroundDrawable;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class SizeNotifierFrameLayout extends FrameLayout {
 

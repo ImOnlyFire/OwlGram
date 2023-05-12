@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.view.View;
 
@@ -16,15 +16,15 @@ import org.telegram.ui.Cells.HeaderCell;
 import org.telegram.ui.Cells.TextCell;
 import org.telegram.ui.Cells.TextCheckCell;
 
-import me.onlyfire.yukigram.android.http.FileDownloader;
-import me.onlyfire.yukigram.android.magic.OWLENC;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.StoreUtils;
-import me.onlyfire.yukigram.android.updates.AppDownloader;
-import me.onlyfire.yukigram.android.updates.PlayStoreAPI;
-import me.onlyfire.yukigram.android.updates.UpdateManager;
-import me.onlyfire.yukigram.ui.Cells.UpdateAvailableCell;
-import me.onlyfire.yukigram.ui.Cells.UpdateCheckCell;
+import me.onlyfire.loligram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.magic.OWLENC;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.StoreUtils;
+import me.onlyfire.loligram.android.updates.AppDownloader;
+import me.onlyfire.loligram.android.updates.PlayStoreAPI;
+import me.onlyfire.loligram.android.updates.UpdateManager;
+import me.onlyfire.loligram.ui.Cells.UpdateAvailableCell;
+import me.onlyfire.loligram.ui.Cells.UpdateCheckCell;
 
 public class OwlgramUpdateSettings extends BaseSettingsActivity {
 

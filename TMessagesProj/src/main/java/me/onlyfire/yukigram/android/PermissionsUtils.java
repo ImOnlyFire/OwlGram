@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android;
+package me.onlyfire.loligram.android;
 
 import android.Manifest;
 import android.app.Activity;

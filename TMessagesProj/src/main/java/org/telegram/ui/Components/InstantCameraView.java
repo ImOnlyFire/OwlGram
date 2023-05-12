@@ -122,9 +122,9 @@ import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
 import javax.microedition.khronos.egl.EGLSurface;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.camera.CameraXController;
-import me.onlyfire.yukigram.android.camera.CameraXUtils;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.camera.CameraXController;
+import me.onlyfire.loligram.android.camera.CameraXUtils;
 
 @TargetApi(18)
 public class InstantCameraView extends FrameLayout implements NotificationCenter.NotificationCenterDelegate {

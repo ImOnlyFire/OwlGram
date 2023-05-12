@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -46,11 +46,11 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.http.FileDownloader;
-import me.onlyfire.yukigram.android.CustomEmojiController;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.utils.FileUnzip;
-import me.onlyfire.yukigram.ui.Cells.EmojiSet;
+import me.onlyfire.loligram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.CustomEmojiController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.utils.FileUnzip;
+import me.onlyfire.loligram.ui.Cells.EmojiSet;
 
 public class EmojiPackSettings extends BaseSettingsActivity implements NotificationCenter.NotificationCenterDelegate, ChatAttachAlertDocumentLayout.DocumentSelectActivityDelegate {
 

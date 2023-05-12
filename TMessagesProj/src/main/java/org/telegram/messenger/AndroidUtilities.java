@@ -200,8 +200,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.Components.Dialogs.ImportSettingsDialog;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.Components.Dialogs.ImportSettingsDialog;
 
 public class AndroidUtilities {
     public final static int LIGHT_STATUS_BAR_OVERLAY = 0x0f000000, DARK_STATUS_BAR_OVERLAY = 0x33000000;

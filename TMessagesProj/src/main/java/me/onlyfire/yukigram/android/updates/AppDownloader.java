@@ -1,9 +1,9 @@
-package me.onlyfire.yukigram.android.updates;
+package me.onlyfire.loligram.android.updates;
 
 import android.app.Activity;
 
-import me.onlyfire.yukigram.android.StoreUtils;
-import me.onlyfire.yukigram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.StoreUtils;
+import me.onlyfire.loligram.android.http.FileDownloader;
 
 public class AppDownloader {
 

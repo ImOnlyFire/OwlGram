@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -33,13 +33,13 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import me.onlyfire.yukigram.android.AlertController;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.camera.CameraXUtils;
-import me.onlyfire.yukigram.android.entities.EntitiesHelper;
-import me.onlyfire.yukigram.android.media.AudioEnhance;
-import me.onlyfire.yukigram.ui.Cells.CameraTypeSelector;
-import me.onlyfire.yukigram.ui.Cells.StickerSize;
+import me.onlyfire.loligram.android.AlertController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.camera.CameraXUtils;
+import me.onlyfire.loligram.android.entities.EntitiesHelper;
+import me.onlyfire.loligram.android.media.AudioEnhance;
+import me.onlyfire.loligram.ui.Cells.CameraTypeSelector;
+import me.onlyfire.loligram.ui.Cells.StickerSize;
 
 public class OwlgramChatSettings extends BaseSettingsActivity implements NotificationCenter.NotificationCenterDelegate {
 

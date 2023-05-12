@@ -5,7 +5,7 @@
  *
  * Copyright Laky64, 2021-2022.
  */
-package me.onlyfire.yukigram.android.media;
+package me.onlyfire.loligram.android.media;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

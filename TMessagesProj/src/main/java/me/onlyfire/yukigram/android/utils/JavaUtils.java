@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.utils;
+package me.onlyfire.loligram.android.utils;
 
 import java.util.HashMap;
 import java.util.Map;

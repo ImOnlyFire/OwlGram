@@ -207,17 +207,17 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.Components.Dialogs.AppLinkVerifyBottomSheet;
-import me.onlyfire.yukigram.ui.Components.Dialogs.CrashReportBottomSheet;
-import me.onlyfire.yukigram.ui.Components.Dialogs.MonetAndroidFixDialog;
-import me.onlyfire.yukigram.ui.Components.SendOptionsMenuLayout;
-import me.onlyfire.yukigram.android.Crashlytics;
-import me.onlyfire.yukigram.android.utils.ForwardContext;
-import me.onlyfire.yukigram.android.MonetIconController;
-import me.onlyfire.yukigram.android.PasscodeController;
-import me.onlyfire.yukigram.android.updates.AppDownloader;
-import me.onlyfire.yukigram.android.updates.UpdateManager;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.Components.Dialogs.AppLinkVerifyBottomSheet;
+import me.onlyfire.loligram.ui.Components.Dialogs.CrashReportBottomSheet;
+import me.onlyfire.loligram.ui.Components.Dialogs.MonetAndroidFixDialog;
+import me.onlyfire.loligram.ui.Components.SendOptionsMenuLayout;
+import me.onlyfire.loligram.android.Crashlytics;
+import me.onlyfire.loligram.android.utils.ForwardContext;
+import me.onlyfire.loligram.android.MonetIconController;
+import me.onlyfire.loligram.android.PasscodeController;
+import me.onlyfire.loligram.android.updates.AppDownloader;
+import me.onlyfire.loligram.android.updates.UpdateManager;
 
 public class DialogsActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate, FloatingDebugProvider {
 

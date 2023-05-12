@@ -135,8 +135,8 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.Components.Dialogs.ImportSettingsDialog;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.Components.Dialogs.ImportSettingsDialog;
 
 public class ChannelAdminLogActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate {
 

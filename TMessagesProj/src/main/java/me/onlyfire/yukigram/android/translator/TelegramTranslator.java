@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.translator;
+package me.onlyfire.loligram.android.translator;
 
 import org.telegram.messenger.LanguageDetector;
 import org.telegram.messenger.TranslateController;
@@ -16,7 +16,7 @@ import java.util.Objects;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 
-import me.onlyfire.yukigram.android.MessageHelper;
+import me.onlyfire.loligram.android.MessageHelper;
 import kotlin.NotImplementedError;
 
 public class TelegramTranslator extends BaseTranslator {

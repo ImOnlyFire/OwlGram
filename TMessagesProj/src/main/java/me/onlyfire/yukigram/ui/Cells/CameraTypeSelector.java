@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells;
+package me.onlyfire.loligram.ui.Cells;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -21,7 +21,7 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.NumberPicker;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class CameraTypeSelector extends LinearLayout {
     Paint pickerDividersPaint = new Paint(Paint.ANTI_ALIAS_FLAG);

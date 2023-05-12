@@ -76,7 +76,7 @@ import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 import java.util.function.Consumer;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class NotificationsController extends BaseController {
 

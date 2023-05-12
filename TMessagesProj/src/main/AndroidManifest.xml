@@ -342,7 +342,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="vnd.android.cursor.item/vnd.me.onlyfire.yukigram.android.android.profile"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.me.onlyfire.loligram.android.android.profile"/>
             </intent-filter>
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW"/>
@@ -379,8 +379,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="vnd.android.cursor.item/vnd.me.onlyfire.yukigram.android.android.call"/>
-                <data android:mimeType="vnd.android.cursor.item/vnd.me.onlyfire.yukigram.android.android.call.video"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.me.onlyfire.loligram.android.android.call"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.me.onlyfire.loligram.android.android.call.video"/>
             </intent-filter>
         </activity-alias>
         <activity
@@ -476,9 +476,9 @@
                   android:exported="true"
                 android:theme="@style/Theme.TMessages.TransparentWithAlerts"/>
         <activity
-            android:name="me.onlyfire.yukigram.android.utils.AppRestartHelper"
+            android:name="me.onlyfire.loligram.android.utils.AppRestartHelper"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:process=":yukigram"
+            android:process=":loligram"
             android:exported="false"
             />
 

@@ -63,10 +63,10 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.stream.Collectors;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.entities.HTMLKeeper;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.translator.TranslatorHelper;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.entities.HTMLKeeper;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.translator.TranslatorHelper;
 
 public class TranslateAlert2 extends BottomSheet implements NotificationCenter.NotificationCenterDelegate {
 

@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.updates;
+package me.onlyfire.loligram.android.updates;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,8 +24,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.Components.Dialogs.UpdateInstallingDialog;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.Components.Dialogs.UpdateInstallingDialog;
 
 public class ApkInstaller {
     @SuppressLint("StaticFieldLeak")

@@ -81,7 +81,7 @@ import javax.microedition.khronos.egl.EGLDisplay;
 import javax.microedition.khronos.egl.EGLSurface;
 import javax.microedition.khronos.opengles.GL;
 
-import me.onlyfire.yukigram.ui.Components.BaseCameraView;
+import me.onlyfire.loligram.ui.Components.BaseCameraView;
 
 @SuppressLint("NewApi")
 public class CameraView extends BaseCameraView implements TextureView.SurfaceTextureListener {

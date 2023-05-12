@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.updates;
+package me.onlyfire.loligram.android.updates;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

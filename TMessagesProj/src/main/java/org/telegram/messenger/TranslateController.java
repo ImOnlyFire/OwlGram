@@ -25,13 +25,13 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.entities.HTMLKeeper;
-import me.onlyfire.yukigram.android.MessageHelper;
-import me.onlyfire.yukigram.ui.DoNotTranslateSettings;
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.translator.TranslatorHelper;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.entities.HTMLKeeper;
+import me.onlyfire.loligram.android.MessageHelper;
+import me.onlyfire.loligram.ui.DoNotTranslateSettings;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.translator.TranslatorHelper;
 
 public class TranslateController extends BaseController {
 

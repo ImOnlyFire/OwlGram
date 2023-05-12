@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.translator;
+package me.onlyfire.loligram.android.translator;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 
-import me.onlyfire.yukigram.android.http.StandardHTTPRequest;
+import me.onlyfire.loligram.android.http.StandardHTTPRequest;
 
 public class YandexTranslator extends BaseTranslator {
 

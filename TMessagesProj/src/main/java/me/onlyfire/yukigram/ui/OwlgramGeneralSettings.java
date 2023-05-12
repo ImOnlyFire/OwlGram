@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.graphics.PorterDuff;
@@ -33,14 +33,14 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Locale;
 
-import me.onlyfire.yukigram.android.AlertController;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.translator.AutoTranslateConfig;
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.DeepLTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.translator.TranslatorHelper;
-import me.onlyfire.yukigram.ui.Cells.DcStyleSelector;
+import me.onlyfire.loligram.android.AlertController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.translator.AutoTranslateConfig;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.DeepLTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.translator.TranslatorHelper;
+import me.onlyfire.loligram.ui.Cells.DcStyleSelector;
 
 public class OwlgramGeneralSettings extends BaseSettingsActivity {
     private final boolean supportLanguageDetector;

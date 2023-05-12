@@ -73,7 +73,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
 
-import me.onlyfire.yukigram.android.PasscodeController;
+import me.onlyfire.loligram.android.PasscodeController;
 
 public class PasscodeView extends FrameLayout implements NotificationCenter.NotificationCenterDelegate {
     private final static float BACKGROUND_SPRING_STIFFNESS = 300f;

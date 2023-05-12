@@ -112,8 +112,8 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
-import me.onlyfire.yukigram.ui.Components.SendOptionsMenuLayout;
-import me.onlyfire.yukigram.android.utils.ForwardContext;
+import me.onlyfire.loligram.ui.Components.SendOptionsMenuLayout;
+import me.onlyfire.loligram.android.utils.ForwardContext;
 
 public class ShareAlert extends BottomSheet implements NotificationCenter.NotificationCenterDelegate {
 

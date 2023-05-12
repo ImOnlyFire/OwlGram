@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.magic;
+package me.onlyfire.loligram.android.magic;
 
 import java.util.Collection;
 import java.util.HashMap;

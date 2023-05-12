@@ -27,7 +27,7 @@ import org.telegram.messenger.Utilities;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import me.onlyfire.yukigram.android.MessageHelper;
+import me.onlyfire.loligram.android.MessageHelper;
 
 public class TLRPC {
 

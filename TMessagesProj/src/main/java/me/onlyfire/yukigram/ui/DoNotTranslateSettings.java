@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.view.View;
@@ -19,9 +19,9 @@ import org.telegram.ui.Cells.TextCheckbox2Cell;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class DoNotTranslateSettings extends BaseSettingsActivity {
     private int languageHeaderRow;

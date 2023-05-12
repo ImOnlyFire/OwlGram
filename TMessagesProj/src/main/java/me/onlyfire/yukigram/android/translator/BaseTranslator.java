@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.translator;
+package me.onlyfire.loligram.android.translator;
 
 import android.os.SystemClock;
 import android.util.LruCache;
@@ -23,8 +23,8 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import me.onlyfire.yukigram.android.MessageHelper;
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.MessageHelper;
+import me.onlyfire.loligram.android.OwlConfig;
 
 
 abstract public class BaseTranslator {

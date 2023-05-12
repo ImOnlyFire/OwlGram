@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.entities;
+package me.onlyfire.loligram.android.entities;
 
 
 import android.graphics.Typeface;
@@ -39,7 +39,7 @@ import java.util.Optional;
 import io.noties.prism4j.DefaultGrammarLocator;
 import io.noties.prism4j.Grammar;
 import io.noties.prism4j.Prism4j;
-import me.onlyfire.yukigram.android.entities.syntax_highlight.SyntaxHighlight;
+import me.onlyfire.loligram.android.entities.syntax_highlight.SyntaxHighlight;
 
 public class EntitiesHelper {
 

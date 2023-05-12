@@ -92,8 +92,8 @@ import org.telegram.ui.Components.UndoView;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import me.onlyfire.yukigram.ui.Components.Dialogs.IconSelectorAlert;
-import me.onlyfire.yukigram.android.FolderIconController;
+import me.onlyfire.loligram.ui.Components.Dialogs.IconSelectorAlert;
+import me.onlyfire.loligram.android.FolderIconController;
 
 public class FilterCreateActivity extends BaseFragment {
 

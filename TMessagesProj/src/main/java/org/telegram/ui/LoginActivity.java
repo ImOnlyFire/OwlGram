@@ -178,8 +178,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.atomic.AtomicReference;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.PasscodeController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.PasscodeController;
 
 @SuppressLint("HardwareIds")
 public class LoginActivity extends BaseFragment {

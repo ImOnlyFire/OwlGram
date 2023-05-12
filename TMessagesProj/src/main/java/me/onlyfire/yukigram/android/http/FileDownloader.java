@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.http;
+package me.onlyfire.loligram.android.http;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

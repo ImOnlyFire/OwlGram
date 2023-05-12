@@ -91,7 +91,7 @@ import org.telegram.ui.Components.URLSpanNoUnderline;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.PermissionsUtils;
+import me.onlyfire.loligram.android.PermissionsUtils;
 
 @TargetApi(18)
 public class CameraScanActivity extends BaseFragment {

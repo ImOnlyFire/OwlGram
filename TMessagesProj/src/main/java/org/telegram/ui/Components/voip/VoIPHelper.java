@@ -62,7 +62,7 @@ import java.util.Collections;
 import java.util.Locale;
 import java.util.Set;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class VoIPHelper {
 

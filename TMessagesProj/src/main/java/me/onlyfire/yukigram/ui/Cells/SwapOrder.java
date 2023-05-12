@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells;
+package me.onlyfire.loligram.ui.Cells;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

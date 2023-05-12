@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.translator;
+package me.onlyfire.loligram.android.translator;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -20,9 +20,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Locale;
 
-import me.onlyfire.yukigram.android.AlertController;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.entities.HTMLKeeper;
+import me.onlyfire.loligram.android.AlertController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.entities.HTMLKeeper;
 
 public class Translator {
 

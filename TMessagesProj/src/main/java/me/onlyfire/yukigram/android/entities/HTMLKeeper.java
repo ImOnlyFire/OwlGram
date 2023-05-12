@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.entities;
+package me.onlyfire.loligram.android.entities;
 
 import android.graphics.Typeface;
 import android.text.Html;

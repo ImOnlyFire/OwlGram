@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
@@ -24,8 +24,8 @@ import org.telegram.ui.Components.FlickerLoadingView;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-import me.onlyfire.yukigram.android.translator.AutoTranslateConfig;
-import me.onlyfire.yukigram.ui.Cells.EditTopic;
+import me.onlyfire.loligram.android.translator.AutoTranslateConfig;
+import me.onlyfire.loligram.ui.Cells.EditTopic;
 
 public class AutoTranslateGroupInfo extends BaseSettingsActivity implements NotificationCenter.NotificationCenterDelegate {
 

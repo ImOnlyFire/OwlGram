@@ -63,8 +63,8 @@ import org.telegram.ui.Components.UndoView;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.FolderIconController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.FolderIconController;
 
 public class FiltersSetupActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate {
 
@@ -499,13 +499,13 @@ public class FiltersSetupActivity extends BaseFragment implements NotificationCe
         ArrayList<MessagesController.DialogFilter> dialogFilters = getMessagesController().getDialogFilters();
         items.add(ItemInner.asHint());
 
-        // YukiGram - START
+        // LoliGram - START
         items.add(ItemInner.asHeader(LocaleController.getString("FoldersType", R.string.FoldersType)));
         items.add(ItemInner.asRadio(LocaleController.getString("FoldersTypeTitles", R.string.FoldersTypeTitles), OwlConfig.tabMode == OwlConfig.TAB_TYPE_TEXT, true));
         items.add(ItemInner.asRadio(LocaleController.getString("FoldersTypeIcons", R.string.FoldersTypeIcons), OwlConfig.tabMode == OwlConfig.TAB_TYPE_ICON, true));
         items.add(ItemInner.asRadio(LocaleController.getString("FoldersTypeIconsTitles", R.string.FoldersTypeIconsTitles), OwlConfig.tabMode == OwlConfig.TAB_TYPE_MIX, true));
         items.add(ItemInner.asShadow(null));
-        // YukiGram - END
+        // LoliGram - END
 
         if (!suggestedFilters.isEmpty() && dialogFilters.size() < 10) {
             items.add(ItemInner.asHeader(LocaleController.getString("FilterRecommended", R.string.FilterRecommended)));

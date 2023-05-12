@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.translator.raw;
+package me.onlyfire.loligram.android.translator.raw;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

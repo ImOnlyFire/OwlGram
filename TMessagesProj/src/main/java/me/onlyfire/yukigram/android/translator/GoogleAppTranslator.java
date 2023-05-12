@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.translator;
+package me.onlyfire.loligram.android.translator;
 
 import android.text.TextUtils;
 
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import me.onlyfire.yukigram.android.http.StandardHTTPRequest;
+import me.onlyfire.loligram.android.http.StandardHTTPRequest;
 
 public class GoogleAppTranslator extends BaseTranslator {
 

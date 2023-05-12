@@ -163,11 +163,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.entities.EntitiesHelper;
-import me.onlyfire.yukigram.android.MessageHelper;
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.entities.EntitiesHelper;
+import me.onlyfire.loligram.android.MessageHelper;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
 
 public class ChatActivityEnterView extends BlurredFrameLayout implements NotificationCenter.NotificationCenterDelegate, SizeNotifierFrameLayout.SizeNotifierFrameLayoutDelegate, StickersAlert.StickersAlertDelegate {
 

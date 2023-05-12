@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import static android.view.View.IMPORTANT_FOR_ACCESSIBILITY_NO;
 
@@ -27,9 +27,9 @@ import org.telegram.ui.Components.StickerImageView;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.AlertController;
-import me.onlyfire.yukigram.android.MonetIconController;
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.AlertController;
+import me.onlyfire.loligram.android.MonetIconController;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class OwlgramExperimentalSettings extends BaseSettingsActivity {
 

@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -35,11 +35,11 @@ import java.io.File;
 import java.util.Date;
 import java.util.Locale;
 
-import me.onlyfire.yukigram.android.AccountAgeController;
-import me.onlyfire.yukigram.android.entities.EntitiesHelper;
-import me.onlyfire.yukigram.android.utils.DCHelper;
-import me.onlyfire.yukigram.ui.Cells.DetailsPreviewMessages;
-import me.onlyfire.yukigram.ui.Cells.TextDetailCellMultiline;
+import me.onlyfire.loligram.android.AccountAgeController;
+import me.onlyfire.loligram.android.entities.EntitiesHelper;
+import me.onlyfire.loligram.android.utils.DCHelper;
+import me.onlyfire.loligram.ui.Cells.DetailsPreviewMessages;
+import me.onlyfire.loligram.ui.Cells.TextDetailCellMultiline;
 
 public class DetailsActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate {
     private int rowCount;

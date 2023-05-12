@@ -34,8 +34,8 @@ import org.telegram.ui.ChatActivity;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.DoNotTranslateSettings;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.DoNotTranslateSettings;
 
 public class TranslateButton extends FrameLayout {
 

@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.transition.TransitionManager;
 import android.view.View;
@@ -16,12 +16,12 @@ import org.telegram.ui.Cells.TextCell;
 import org.telegram.ui.Cells.TextCheckCell;
 import org.telegram.ui.Cells.TextSettingsCell;
 
-import me.onlyfire.yukigram.android.CustomEmojiController;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.Cells.BlurIntensity;
-import me.onlyfire.yukigram.ui.Cells.DrawerProfilePreview;
-import me.onlyfire.yukigram.ui.Cells.DynamicButtonSelector;
-import me.onlyfire.yukigram.ui.Cells.ThemeSelectorDrawer;
+import me.onlyfire.loligram.android.CustomEmojiController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.Cells.BlurIntensity;
+import me.onlyfire.loligram.ui.Cells.DrawerProfilePreview;
+import me.onlyfire.loligram.ui.Cells.DynamicButtonSelector;
+import me.onlyfire.loligram.ui.Cells.ThemeSelectorDrawer;
 
 public class OwlgramAppearanceSettings extends BaseSettingsActivity implements NotificationCenter.NotificationCenterDelegate {
     private DrawerProfilePreview profilePreviewCell;

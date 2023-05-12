@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components.Dialogs;
+package me.onlyfire.loligram.ui.Components.Dialogs;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -34,7 +34,7 @@ import org.telegram.ui.Components.ExtendedGridLayoutManager;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.RecyclerListView;
 
-import me.onlyfire.yukigram.android.FolderIconController;
+import me.onlyfire.loligram.android.FolderIconController;
 
 public class IconSelectorAlert extends BottomSheet {
 

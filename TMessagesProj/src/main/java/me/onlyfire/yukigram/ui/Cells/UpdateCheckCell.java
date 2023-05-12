@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells;
+package me.onlyfire.loligram.ui.Cells;
 
 import android.animation.LayoutTransition;
 import android.annotation.SuppressLint;
@@ -20,9 +20,9 @@ import org.telegram.ui.Components.LayoutHelper;
 
 import java.util.Date;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.StoreUtils;
-import me.onlyfire.yukigram.android.updates.UpdateManager;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.StoreUtils;
+import me.onlyfire.loligram.android.updates.UpdateManager;
 
 @SuppressLint("ViewConstructor")
 public class UpdateCheckCell extends RelativeLayout {

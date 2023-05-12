@@ -64,7 +64,7 @@ import org.telegram.ui.Components.Reactions.AnimatedEmojiEffect;
 import org.telegram.ui.Components.Reactions.ReactionsLayoutInBubble;
 import org.telegram.ui.Components.SnowflakesEffect;
 import org.telegram.ui.ThemeActivity;
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 import java.util.ArrayList;
 

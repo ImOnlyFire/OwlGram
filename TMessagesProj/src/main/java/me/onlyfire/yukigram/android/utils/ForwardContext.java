@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.utils;
+package me.onlyfire.loligram.android.utils;
 
 import org.telegram.messenger.MessageObject;
 

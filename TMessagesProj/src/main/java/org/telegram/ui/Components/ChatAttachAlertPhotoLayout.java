@@ -105,15 +105,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.Components.BaseCameraView;
-import me.onlyfire.yukigram.android.camera.CameraXController;
-import me.onlyfire.yukigram.android.camera.CameraXUtils;
-import me.onlyfire.yukigram.ui.Components.CameraXView;
-import me.onlyfire.yukigram.ui.Components.EffectSelectorView;
-import me.onlyfire.yukigram.ui.Components.LockAnimationView;
-import me.onlyfire.yukigram.ui.Components.SlideControlView;
-import me.onlyfire.yukigram.android.PermissionsUtils;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.Components.BaseCameraView;
+import me.onlyfire.loligram.android.camera.CameraXController;
+import me.onlyfire.loligram.android.camera.CameraXUtils;
+import me.onlyfire.loligram.ui.Components.CameraXView;
+import me.onlyfire.loligram.ui.Components.EffectSelectorView;
+import me.onlyfire.loligram.ui.Components.LockAnimationView;
+import me.onlyfire.loligram.ui.Components.SlideControlView;
+import me.onlyfire.loligram.android.PermissionsUtils;
 
 public class ChatAttachAlertPhotoLayout extends ChatAttachAlert.AttachAlertLayout implements NotificationCenter.NotificationCenterDelegate {
 

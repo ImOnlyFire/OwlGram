@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components;
+package me.onlyfire.loligram.ui.Components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,7 +20,7 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AlertsCreator;
 import org.telegram.ui.Components.LayoutHelper;
 
-import me.onlyfire.yukigram.android.utils.ForwardContext;
+import me.onlyfire.loligram.android.utils.ForwardContext;
 
 @SuppressLint({"ClickableViewAccessibility", "ViewConstructor"})
 public class SendOptionsMenuLayout extends LinearLayout {

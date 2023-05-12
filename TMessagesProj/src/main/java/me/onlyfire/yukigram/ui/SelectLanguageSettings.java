@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.view.View;
@@ -19,9 +19,9 @@ import org.telegram.ui.Cells.TextRadioCell;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
 
 public class SelectLanguageSettings extends BaseSettingsActivity {
 

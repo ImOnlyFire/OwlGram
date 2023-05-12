@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android;
+package me.onlyfire.loligram.android;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -47,11 +47,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import me.onlyfire.yukigram.android.http.FileDownloader;
-import me.onlyfire.yukigram.android.http.StandardHTTPRequest;
-import me.onlyfire.yukigram.ui.Components.EmojiSetBulletinLayout;
-import me.onlyfire.yukigram.Fonts.FontFileReader;
-import me.onlyfire.yukigram.android.utils.FileUnzip;
+import me.onlyfire.loligram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.http.StandardHTTPRequest;
+import me.onlyfire.loligram.ui.Components.EmojiSetBulletinLayout;
+import me.onlyfire.loligram.Fonts.FontFileReader;
+import me.onlyfire.loligram.android.utils.FileUnzip;
 
 public class CustomEmojiController {
     private static Typeface systemEmojiTypeface;

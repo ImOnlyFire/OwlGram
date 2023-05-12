@@ -1,7 +1,7 @@
 <h1><img src="https://i.imgur.com/Fuk3KyU.png" width="150" align="left"/>❄️ YukiGram <sub><sub><sup>Yu·ki &#40;<i>Japanese</i>): snow.</sup></sub></sub></h1>
 
-[![Updates](https://img.shields.io/badge/Updates-Telegram-blue.svg)](https://t.me/yukigramapp)
-[![Support](https://img.shields.io/badge/Support-Telegram-blue.svg)](https://t.me/yukigramgroup)
+[![Updates](https://img.shields.io/badge/Updates-Telegram-blue.svg)](https://t.me/loligramapp)
+[![Support](https://img.shields.io/badge/Support-Telegram-blue.svg)](https://t.me/loligramgroup)
 ![Latest](https://img.shields.io/github/v/release/ImOnlyFire/YukiGram?display_name=tag&include_prereleases)
 ![Downloads](https://img.shields.io/github/downloads/ImOnlyFire/YukiGram/total)
 &nbsp;&nbsp;&nbsp;<sup>[Licensed under the GNU General Public License v2.0](https://github.com/ImOnlyFire/YukiGram/blob/master/LICENSE)</sup>
@@ -13,7 +13,7 @@ The decision to fork OwlGram was driven by my genuine appreciation for the proje
 To reproduce the build of YukiGram is only needed ccache (**already installed in "Tools" folder**), on macOs
 will be used from Homebrew if installed, otherwise it will be used the one in the "Tools" folder.
 
-1. [**Obtain your own api_id**](https://core.telegram.org/api/obtaining_api_id) for your application and put [**here**](https://github.com/ImOnlyFire/YukiGram/blob/master/TMessagesProj/src/main/java/me/onlyfire/yukigram/android/Extra.example) (remember to **rename** Extra.example to Extra.java).
+1. [**Obtain your own api_id**](https://core.telegram.org/api/obtaining_api_id) for your application and put [**here**](https://github.com/ImOnlyFire/YukiGram/blob/master/TMessagesProj/src/main/java/me/onlyfire/loligram/android/Extra.example) (remember to **rename** Extra.example to Extra.java).
 2. Please **do not** use the name Telegram for your app — or make sure your users understand that it is unofficial.
 3. Kindly **do not** use our standard logo (white paper plane in a blue circle) as your app's logo.
 4. Please study our [**security guidelines**](https://core.telegram.org/mtproto/security_guidelines) and take good care of your users' data and privacy.

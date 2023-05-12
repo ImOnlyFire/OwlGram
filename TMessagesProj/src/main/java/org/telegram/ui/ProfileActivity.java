@@ -236,23 +236,23 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import me.onlyfire.yukigram.android.Extra;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.StoreUtils;
-import me.onlyfire.yukigram.ui.Cells.ActionPanel;
-import me.onlyfire.yukigram.ui.Cells.Datacenter;
-import me.onlyfire.yukigram.ui.Cells.DcStyleSelector;
-import me.onlyfire.yukigram.ui.Cells.Dynamic.ThemeInfo;
-import me.onlyfire.yukigram.android.ActionButtonController;
-import me.onlyfire.yukigram.android.utils.DCHelper;
-import me.onlyfire.yukigram.ui.BaseSettingsActivity;
-import me.onlyfire.yukigram.ui.DoNotTranslateSettings;
-import me.onlyfire.yukigram.ui.OwlgramSettings;
-import me.onlyfire.yukigram.ui.Components.AutoTranslatePopupWrapper;
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.translator.TranslatorHelper;
-import me.onlyfire.yukigram.android.updates.UpdateManager;
+import me.onlyfire.loligram.android.Extra;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.StoreUtils;
+import me.onlyfire.loligram.ui.Cells.ActionPanel;
+import me.onlyfire.loligram.ui.Cells.Datacenter;
+import me.onlyfire.loligram.ui.Cells.DcStyleSelector;
+import me.onlyfire.loligram.ui.Cells.Dynamic.ThemeInfo;
+import me.onlyfire.loligram.android.ActionButtonController;
+import me.onlyfire.loligram.android.utils.DCHelper;
+import me.onlyfire.loligram.ui.BaseSettingsActivity;
+import me.onlyfire.loligram.ui.DoNotTranslateSettings;
+import me.onlyfire.loligram.ui.OwlgramSettings;
+import me.onlyfire.loligram.ui.Components.AutoTranslatePopupWrapper;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.translator.TranslatorHelper;
+import me.onlyfire.loligram.android.updates.UpdateManager;
 
 public class ProfileActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate, DialogsActivity.DialogsActivityDelegate, SharedMediaLayout.SharedMediaPreloaderDelegate, ImageUpdater.ImageUpdaterDelegate, SharedMediaLayout.Delegate {
     private final static int PHONE_OPTION_CALL = 0,

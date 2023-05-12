@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.utils;
+package me.onlyfire.loligram.android.utils;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -16,7 +16,7 @@ public class SharedPreferencesHelper {
     private static Runnable groupingRunnable;
 
     static {
-        preferences = ApplicationLoader.applicationContext.getSharedPreferences("yukigram", Activity.MODE_PRIVATE);
+        preferences = ApplicationLoader.applicationContext.getSharedPreferences("loligram", Activity.MODE_PRIVATE);
     }
 
     protected static void putValue(String key, Object value) {

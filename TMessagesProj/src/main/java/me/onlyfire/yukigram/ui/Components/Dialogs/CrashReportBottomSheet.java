@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components.Dialogs;
+package me.onlyfire.loligram.ui.Components.Dialogs;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -27,7 +27,7 @@ import org.telegram.ui.LaunchActivity;
 import java.io.File;
 import java.io.IOException;
 
-import me.onlyfire.yukigram.android.Crashlytics;
+import me.onlyfire.loligram.android.Crashlytics;
 
 public class CrashReportBottomSheet extends OnceBottomSheet {
     public CrashReportBottomSheet(BaseFragment fragment) {

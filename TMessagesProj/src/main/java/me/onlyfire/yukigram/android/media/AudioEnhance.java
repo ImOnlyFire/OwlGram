@@ -1,11 +1,11 @@
-package me.onlyfire.yukigram.android.media;
+package me.onlyfire.loligram.android.media;
 
 import android.media.AudioRecord;
 import android.media.audiofx.AcousticEchoCanceler;
 import android.media.audiofx.AutomaticGainControl;
 import android.media.audiofx.NoiseSuppressor;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class AudioEnhance {
     private static AutomaticGainControl automaticGainControl = null;

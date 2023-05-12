@@ -89,7 +89,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 
-import me.onlyfire.yukigram.android.StoreUtils;
+import me.onlyfire.loligram.android.StoreUtils;
 
 public class  MessagesController extends BaseController implements NotificationCenter.NotificationCenterDelegate {
 

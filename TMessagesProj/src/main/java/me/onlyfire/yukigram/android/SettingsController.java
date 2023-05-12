@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android;
+package me.onlyfire.loligram.android;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -36,14 +36,14 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.entities.EntitiesHelper;
-import me.onlyfire.yukigram.android.magic.MagicBaseObject;
-import me.onlyfire.yukigram.android.magic.OWLENC;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.camera.CameraXUtils;
-import me.onlyfire.yukigram.android.utils.JavaUtils;
-import me.onlyfire.yukigram.android.utils.SharedPreferencesHelper;
-import me.onlyfire.yukigram.ui.Components.Dialogs.FileSettingsNameDialog;
+import me.onlyfire.loligram.android.entities.EntitiesHelper;
+import me.onlyfire.loligram.android.magic.MagicBaseObject;
+import me.onlyfire.loligram.android.magic.OWLENC;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.camera.CameraXUtils;
+import me.onlyfire.loligram.android.utils.JavaUtils;
+import me.onlyfire.loligram.android.utils.SharedPreferencesHelper;
+import me.onlyfire.loligram.ui.Components.Dialogs.FileSettingsNameDialog;
 
 public class SettingsController extends SharedPreferencesHelper {
     protected static boolean configLoaded;
@@ -483,7 +483,7 @@ public class SettingsController extends SharedPreferencesHelper {
     }
 
     protected static File backupFile() {
-        return new File(ApplicationLoader.getFilesDirFixed(), "yukigram_data.json");
+        return new File(ApplicationLoader.getFilesDirFixed(), "loligram_data.json");
     }
 
     public static void internalResetSettings() {

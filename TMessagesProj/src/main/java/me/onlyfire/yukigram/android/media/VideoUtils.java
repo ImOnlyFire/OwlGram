@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.media;
+package me.onlyfire.loligram.android.media;
 
 public class VideoUtils {
     enum Quality {

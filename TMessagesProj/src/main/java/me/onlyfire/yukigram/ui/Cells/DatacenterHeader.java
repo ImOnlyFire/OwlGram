@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells;
+package me.onlyfire.loligram.ui.Cells;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -23,7 +23,7 @@ import org.telegram.ui.Components.StickerImageView;
 
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.entities.EntitiesHelper;
+import me.onlyfire.loligram.android.entities.EntitiesHelper;
 
 public class DatacenterHeader extends LinearLayout {
     public DatacenterHeader(Context context) {

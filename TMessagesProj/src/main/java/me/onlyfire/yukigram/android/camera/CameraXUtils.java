@@ -5,7 +5,7 @@
  *
  * Copyright Laky64, 2021-2022.
  */
-package me.onlyfire.yukigram.android.camera;
+package me.onlyfire.loligram.android.camera;
 
 import static android.hardware.camera2.CameraCharacteristics.LENS_INFO_AVAILABLE_FOCAL_LENGTHS;
 import static android.hardware.camera2.CameraMetadata.LENS_FACING_BACK;
@@ -39,7 +39,7 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class CameraXUtils {
 

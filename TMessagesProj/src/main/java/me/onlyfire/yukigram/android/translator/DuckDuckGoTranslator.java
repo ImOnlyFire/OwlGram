@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.translator;
+package me.onlyfire.loligram.android.translator;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import me.onlyfire.yukigram.android.http.StandardHTTPRequest;
+import me.onlyfire.loligram.android.http.StandardHTTPRequest;
 
 public class DuckDuckGoTranslator extends BaseTranslator {
 

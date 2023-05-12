@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
@@ -25,7 +25,7 @@ import org.telegram.ui.ProfileActivity;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.translator.AutoTranslateConfig;
+import me.onlyfire.loligram.android.translator.AutoTranslateConfig;
 
 public class AutoTranslationException extends BaseSettingsActivity {
 

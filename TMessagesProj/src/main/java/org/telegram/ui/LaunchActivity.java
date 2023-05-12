@@ -207,28 +207,28 @@ import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import me.onlyfire.yukigram.android.StoreUtils;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.magic.OWLENC;
-import me.onlyfire.yukigram.ui.Components.Dialogs.UpdateAlertDialog;
-import me.onlyfire.yukigram.android.Crashlytics;
-import me.onlyfire.yukigram.android.CustomEmojiController;
-import me.onlyfire.yukigram.android.utils.ForwardContext;
-import me.onlyfire.yukigram.android.LanguageController;
-import me.onlyfire.yukigram.android.MonetThemeController;
-import me.onlyfire.yukigram.android.StickersUtils;
-import me.onlyfire.yukigram.android.updates.UpdateSignaling;
-import me.onlyfire.yukigram.ui.OwlgramAppearanceSettings;
-import me.onlyfire.yukigram.ui.OwlgramChatSettings;
-import me.onlyfire.yukigram.ui.OwlgramExperimentalSettings;
-import me.onlyfire.yukigram.ui.OwlgramGeneralSettings;
-import me.onlyfire.yukigram.ui.OwlgramSettings;
-import me.onlyfire.yukigram.ui.DatacenterActivity;
-import me.onlyfire.yukigram.android.http.FileDownloader;
-import me.onlyfire.yukigram.android.updates.ApkInstaller;
-import me.onlyfire.yukigram.android.updates.AppDownloader;
-import me.onlyfire.yukigram.android.updates.PlayStoreAPI;
-import me.onlyfire.yukigram.android.updates.UpdateManager;
+import me.onlyfire.loligram.android.StoreUtils;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.magic.OWLENC;
+import me.onlyfire.loligram.ui.Components.Dialogs.UpdateAlertDialog;
+import me.onlyfire.loligram.android.Crashlytics;
+import me.onlyfire.loligram.android.CustomEmojiController;
+import me.onlyfire.loligram.android.utils.ForwardContext;
+import me.onlyfire.loligram.android.LanguageController;
+import me.onlyfire.loligram.android.MonetThemeController;
+import me.onlyfire.loligram.android.StickersUtils;
+import me.onlyfire.loligram.android.updates.UpdateSignaling;
+import me.onlyfire.loligram.ui.OwlgramAppearanceSettings;
+import me.onlyfire.loligram.ui.OwlgramChatSettings;
+import me.onlyfire.loligram.ui.OwlgramExperimentalSettings;
+import me.onlyfire.loligram.ui.OwlgramGeneralSettings;
+import me.onlyfire.loligram.ui.OwlgramSettings;
+import me.onlyfire.loligram.ui.DatacenterActivity;
+import me.onlyfire.loligram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.updates.ApkInstaller;
+import me.onlyfire.loligram.android.updates.AppDownloader;
+import me.onlyfire.loligram.android.updates.PlayStoreAPI;
+import me.onlyfire.loligram.android.updates.UpdateManager;
 
 public class LaunchActivity extends BasePermissionsActivity implements INavigationLayout.INavigationLayoutDelegate, NotificationCenter.NotificationCenterDelegate, DialogsActivity.DialogsActivityDelegate {
     public final static String EXTRA_FORCE_NOT_INTERNAL_APPS = "force_not_internal_apps";
@@ -2803,9 +2803,9 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                                             NotificationCenter.getInstance(intentAccount[0]).postNotificationName(NotificationCenter.closeChats);
                                             push_user_id = userId;
                                             @SuppressLint("Range") String mimeType = cursor.getString(cursor.getColumnIndex(ContactsContract.Data.MIMETYPE));
-                                            if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.me.onlyfire.yukigram.android.android.call")) {
+                                            if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.me.onlyfire.loligram.android.android.call")) {
                                                 audioCallUser = true;
-                                            } else if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.me.onlyfire.yukigram.android.android.call.video")) {
+                                            } else if (TextUtils.equals(mimeType, "vnd.android.cursor.item/vnd.me.onlyfire.loligram.android.android.call.video")) {
                                                 videoCallUser = true;
                                             }
                                         }

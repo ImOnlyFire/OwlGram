@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components;
+package me.onlyfire.loligram.ui.Components;
 
 import android.content.Context;
 import android.util.TypedValue;
@@ -19,8 +19,8 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.PopupSwipeBackLayout;
 
-import me.onlyfire.yukigram.android.translator.AutoTranslateConfig;
-import me.onlyfire.yukigram.ui.AutoTranslateGroupInfo;
+import me.onlyfire.loligram.android.translator.AutoTranslateConfig;
+import me.onlyfire.loligram.ui.AutoTranslateGroupInfo;
 
 public class AutoTranslatePopupWrapper {
     public ActionBarPopupWindow.ActionBarPopupWindowLayout windowLayout;

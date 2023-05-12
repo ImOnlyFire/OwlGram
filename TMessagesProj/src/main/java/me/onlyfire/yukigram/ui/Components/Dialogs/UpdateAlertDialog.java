@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components.Dialogs;
+package me.onlyfire.loligram.ui.Components.Dialogs;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,10 +35,10 @@ import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.LaunchActivity;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.http.FileDownloader;
-import me.onlyfire.yukigram.android.magic.OWLENC;
-import me.onlyfire.yukigram.android.updates.UpdateManager;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.magic.OWLENC;
+import me.onlyfire.loligram.android.updates.UpdateManager;
 
 public class UpdateAlertDialog extends BottomSheet {
 

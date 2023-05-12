@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.updates;
+package me.onlyfire.loligram.android.updates;
 
 import android.app.Activity;
 import android.content.pm.PackageInfo;
@@ -22,13 +22,13 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import me.onlyfire.yukigram.android.Extra;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.StoreUtils;
-import me.onlyfire.yukigram.android.entities.HTMLKeeper;
-import me.onlyfire.yukigram.android.http.FileDownloader;
-import me.onlyfire.yukigram.android.http.StandardHTTPRequest;
-import me.onlyfire.yukigram.android.magic.OWLENC;
+import me.onlyfire.loligram.android.Extra;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.StoreUtils;
+import me.onlyfire.loligram.android.entities.HTMLKeeper;
+import me.onlyfire.loligram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.http.StandardHTTPRequest;
+import me.onlyfire.loligram.android.magic.OWLENC;
 
 public class UpdateManager {
 

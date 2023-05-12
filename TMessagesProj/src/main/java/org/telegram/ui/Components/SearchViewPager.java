@@ -61,8 +61,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.utils.ForwardContext;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.utils.ForwardContext;
 
 public class SearchViewPager extends ViewPagerFixed implements FilteredSearchView.UiCallback {
 

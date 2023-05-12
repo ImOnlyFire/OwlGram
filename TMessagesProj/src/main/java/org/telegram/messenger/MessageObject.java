@@ -74,9 +74,9 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import me.onlyfire.yukigram.android.MessageHelper;
-import me.onlyfire.yukigram.android.entities.syntax_highlight.SyntaxHighlight;
-import me.onlyfire.yukigram.ui.DoNotTranslateSettings;
+import me.onlyfire.loligram.android.MessageHelper;
+import me.onlyfire.loligram.android.entities.syntax_highlight.SyntaxHighlight;
+import me.onlyfire.loligram.ui.DoNotTranslateSettings;
 
 public class MessageObject {
 

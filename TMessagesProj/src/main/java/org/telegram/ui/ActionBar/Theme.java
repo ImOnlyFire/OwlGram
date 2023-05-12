@@ -143,9 +143,9 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.MonetThemeController;
-import me.onlyfire.yukigram.android.entities.syntax_highlight.SyntaxHighlight;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.MonetThemeController;
+import me.onlyfire.loligram.android.entities.syntax_highlight.SyntaxHighlight;
 
 public class Theme {
 

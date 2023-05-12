@@ -113,7 +113,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.CustomEmojiController;
+import me.onlyfire.loligram.android.CustomEmojiController;
 
 public class CacheControlActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate {
 

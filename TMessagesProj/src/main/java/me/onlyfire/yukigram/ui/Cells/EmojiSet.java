@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells;
+package me.onlyfire.loligram.ui.Cells;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -29,9 +29,9 @@ import org.telegram.ui.Components.RadialProgressView;
 
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.CustomEmojiController;
-import me.onlyfire.yukigram.android.http.FileDownloader;
-import me.onlyfire.yukigram.android.utils.FileUnzip;
+import me.onlyfire.loligram.android.CustomEmojiController;
+import me.onlyfire.loligram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.utils.FileUnzip;
 
 public class EmojiSet extends FrameLayout {
     private final TextView textView;

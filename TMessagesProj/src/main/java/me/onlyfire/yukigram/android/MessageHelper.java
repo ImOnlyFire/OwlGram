@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android;
+package me.onlyfire.loligram.android;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -44,8 +44,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.entities.EntitiesHelper;
-import me.onlyfire.yukigram.android.translator.TranslatorHelper;
+import me.onlyfire.loligram.android.entities.EntitiesHelper;
+import me.onlyfire.loligram.android.translator.TranslatorHelper;
 
 public class MessageHelper extends BaseController {
 

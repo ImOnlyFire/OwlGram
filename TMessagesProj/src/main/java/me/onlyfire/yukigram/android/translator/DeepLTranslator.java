@@ -1,12 +1,12 @@
-package me.onlyfire.yukigram.android.translator;
+package me.onlyfire.loligram.android.translator;
 
 import android.text.TextUtils;
 
 import java.util.Arrays;
 import java.util.List;
 
-import me.onlyfire.yukigram.android.translator.raw.RawDeepLTranslator;
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.translator.raw.RawDeepLTranslator;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class DeepLTranslator extends BaseTranslator {
 

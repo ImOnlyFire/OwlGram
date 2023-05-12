@@ -64,7 +64,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class ActionBarLayout extends FrameLayout implements INavigationLayout, FloatingDebugProvider {
 

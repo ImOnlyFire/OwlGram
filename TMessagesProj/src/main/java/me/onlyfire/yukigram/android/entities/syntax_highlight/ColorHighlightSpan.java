@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.entities.syntax_highlight;
+package me.onlyfire.loligram.android.entities.syntax_highlight;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

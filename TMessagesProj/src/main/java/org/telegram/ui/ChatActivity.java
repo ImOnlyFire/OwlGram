@@ -328,19 +328,19 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.Components.EmojiSetBulletinLayout;
-import me.onlyfire.yukigram.ui.Components.Dialogs.ImportSettingsDialog;
-import me.onlyfire.yukigram.android.CustomEmojiController;
-import me.onlyfire.yukigram.android.utils.ForwardContext;
-import me.onlyfire.yukigram.android.MessageHelper;
-import me.onlyfire.yukigram.android.PermissionsUtils;
-import me.onlyfire.yukigram.ui.DoNotTranslateSettings;
-import me.onlyfire.yukigram.android.translator.AutoTranslateConfig;
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
-import me.onlyfire.yukigram.android.translator.Translator;
-import me.onlyfire.yukigram.android.translator.TranslatorHelper;
-import me.onlyfire.yukigram.ui.DetailsActivity;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.Components.EmojiSetBulletinLayout;
+import me.onlyfire.loligram.ui.Components.Dialogs.ImportSettingsDialog;
+import me.onlyfire.loligram.android.CustomEmojiController;
+import me.onlyfire.loligram.android.utils.ForwardContext;
+import me.onlyfire.loligram.android.MessageHelper;
+import me.onlyfire.loligram.android.PermissionsUtils;
+import me.onlyfire.loligram.ui.DoNotTranslateSettings;
+import me.onlyfire.loligram.android.translator.AutoTranslateConfig;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.Translator;
+import me.onlyfire.loligram.android.translator.TranslatorHelper;
+import me.onlyfire.loligram.ui.DetailsActivity;
 
 @SuppressWarnings("unchecked")
 public class ChatActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate, DialogsActivity.DialogsActivityDelegate, LocationActivity.LocationActivityDelegate, ChatAttachAlertDocumentLayout.DocumentSelectActivityDelegate, ChatActivityInterface, FloatingDebugProvider, ForwardContext {

@@ -28,7 +28,7 @@ import org.xml.sax.XMLReader;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.entities.syntax_highlight.SyntaxHighlight;
+import me.onlyfire.loligram.android.entities.syntax_highlight.SyntaxHighlight;
 
 public class CopyUtilities {
 

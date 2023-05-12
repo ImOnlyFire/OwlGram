@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.utils;
+package me.onlyfire.loligram.android.utils;
 
 import android.graphics.Color;
 import android.os.SystemClock;
@@ -18,8 +18,8 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.NoSuchElementException;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.http.StandardHTTPRequest;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.http.StandardHTTPRequest;
 
 public class DCHelper {
     public static TInfo getTInfo(TLRPC.User userInfo) {

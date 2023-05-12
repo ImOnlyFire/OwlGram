@@ -5,7 +5,7 @@
  *
  * Copyright Laky64, 2021-2022.
  */
-package me.onlyfire.yukigram.android.camera;
+package me.onlyfire.loligram.android.camera;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -76,9 +76,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.nio.ByteBuffer;
 import java.util.concurrent.ExecutionException;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.ui.Components.CameraXView;
-import me.onlyfire.yukigram.android.media.JpegImageUtils;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.ui.Components.CameraXView;
+import me.onlyfire.loligram.android.media.JpegImageUtils;
 
 public class CameraXController {
 

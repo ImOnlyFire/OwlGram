@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,9 +22,9 @@ import org.telegram.ui.Cells.ShadowSectionCell;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.RecyclerListView;
 
-import me.onlyfire.yukigram.android.utils.DCHelper;
-import me.onlyfire.yukigram.ui.Cells.DatacenterHeader;
-import me.onlyfire.yukigram.ui.Cells.DatacenterStatus;
+import me.onlyfire.loligram.android.utils.DCHelper;
+import me.onlyfire.loligram.ui.Cells.DatacenterHeader;
+import me.onlyfire.loligram.ui.Cells.DatacenterStatus;
 
 public class DatacenterActivity extends BaseFragment {
     private int rowCount;

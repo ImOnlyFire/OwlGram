@@ -60,7 +60,7 @@ import org.telegram.ui.Components.SnowflakesEffect;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class ActionBar extends FrameLayout {
 

@@ -1,11 +1,11 @@
-package me.onlyfire.yukigram.android;
+package me.onlyfire.loligram.android;
 
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.magic.OWLENC;
+import me.onlyfire.loligram.android.magic.OWLENC;
 
 public class MenuOrderController {
     private static final Object sync = new Object();
@@ -19,7 +19,7 @@ public class MenuOrderController {
             "nearby_people",
             "saved_message",
             "settings",
-            "yukigram_settings",
+            "loligram_settings",
             "new_channel",
             "new_secret_chat",
             "invite_friends",
@@ -227,7 +227,7 @@ public class MenuOrderController {
                 return LocaleController.getString("SavedMessages", R.string.SavedMessages);
             case "settings":
                 return LocaleController.getString("Settings", R.string.Settings);
-            case "yukigram_settings":
+            case "loligram_settings":
                 return LocaleController.getString("YukiSetting", R.string.YukiSetting);
             case "new_channel":
                 return LocaleController.getString("NewChannel", R.string.NewChannel);

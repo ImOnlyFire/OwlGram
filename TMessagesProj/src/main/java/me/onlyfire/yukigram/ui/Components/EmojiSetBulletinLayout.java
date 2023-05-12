@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components;
+package me.onlyfire.loligram.ui.Components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.Bulletin;
 
-import me.onlyfire.yukigram.android.CustomEmojiController;
+import me.onlyfire.loligram.android.CustomEmojiController;
 
 @SuppressLint("ViewConstructor")
 public class EmojiSetBulletinLayout extends Bulletin.TwoLineLayout {

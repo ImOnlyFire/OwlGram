@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -52,8 +52,8 @@ import org.telegram.ui.Components.UndoView;
 import java.util.List;
 import java.util.Locale;
 
-import me.onlyfire.yukigram.ui.Cells.EditTopic;
-import me.onlyfire.yukigram.ui.Cells.EmojiSet;
+import me.onlyfire.loligram.ui.Cells.EditTopic;
+import me.onlyfire.loligram.ui.Cells.EmojiSet;
 
 public abstract class BaseSettingsActivity extends BaseFragment {
     protected static final Object PARTIAL = new Object();

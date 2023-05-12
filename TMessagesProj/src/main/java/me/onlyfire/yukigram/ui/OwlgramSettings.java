@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -25,9 +25,9 @@ import org.telegram.ui.Cells.TextCell;
 import org.telegram.ui.Cells.TextDetailSettingsCell;
 import org.telegram.ui.Components.BulletinFactory;
 
-import me.onlyfire.yukigram.android.Crashlytics;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.StoreUtils;
+import me.onlyfire.loligram.android.Crashlytics;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.StoreUtils;
 
 public class OwlgramSettings extends BaseSettingsActivity {
 
@@ -97,7 +97,7 @@ public class OwlgramSettings extends BaseSettingsActivity {
     @Override
     protected void onItemClick(View view, int position, float x, float y) {
         if (position == sourceCodeRow) {
-            Browser.openUrl(getParentActivity(), "https://github.com/ImOnlyFire/YukiGram");
+            Browser.openUrl(getParentActivity(), "https://github.com/ImOnlyFire/LoliGram");
         } else if (position == generalSettingsRow) {
             presentFragment(new OwlgramGeneralSettings());
         } else if (position == chatSettingsRow) {
@@ -113,7 +113,7 @@ public class OwlgramSettings extends BaseSettingsActivity {
             AndroidUtilities.addToClipboard(Crashlytics.getReportMessage());
             BulletinFactory.of(OwlgramSettings.this).createCopyBulletin(LocaleController.getString("ReportDetailsCopied", R.string.ReportDetailsCopied)).show();
         } else if (position == submitIssueRow) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ImOnlyFire/YukiGram/issues/new"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ImOnlyFire/LoliGram/issues/new"));
             startActivityForResult(browserIntent, 1);
         }
     }

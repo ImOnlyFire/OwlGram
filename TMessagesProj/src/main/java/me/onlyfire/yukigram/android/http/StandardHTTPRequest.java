@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.http;
+package me.onlyfire.loligram.android.http;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.Scanner;
 
-import me.onlyfire.yukigram.android.translator.BaseTranslator;
+import me.onlyfire.loligram.android.translator.BaseTranslator;
 
 public class StandardHTTPRequest {
     private final HttpURLConnection httpURLConnection;

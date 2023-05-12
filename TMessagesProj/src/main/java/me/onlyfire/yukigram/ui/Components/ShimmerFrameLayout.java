@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Components;
+package me.onlyfire.loligram.ui.Components;
 
 import android.content.Context;
 import android.content.res.TypedArray;

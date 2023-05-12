@@ -5,7 +5,7 @@
  *
  * Copyright Laky64, 2021-2022.
  */
-package me.onlyfire.yukigram.ui.Components;
+package me.onlyfire.loligram.ui.Components;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,7 +28,7 @@ import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 
-import me.onlyfire.yukigram.android.camera.CameraXController;
+import me.onlyfire.loligram.android.camera.CameraXController;
 
 @SuppressLint("ViewConstructor")
 public class ButtonEffectView extends RelativeLayout {

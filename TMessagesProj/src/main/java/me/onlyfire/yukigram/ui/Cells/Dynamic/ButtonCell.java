@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells.Dynamic;
+package me.onlyfire.loligram.ui.Cells.Dynamic;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,7 +6,7 @@ import android.graphics.Paint;
 
 import org.telegram.ui.ActionBar.Theme;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class ButtonCell {
     public static BaseButtonCell getCurrentButtonCell(Context context, Theme.ResourcesProvider resourcesProvider, String text, int iconId, int color) {

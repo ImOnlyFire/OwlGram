@@ -43,8 +43,8 @@ import org.telegram.ui.LauncherIconController;
 
 import java.io.File;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.camera.CameraXUtils;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.camera.CameraXUtils;
 
 public class ApplicationLoader extends Application {
 

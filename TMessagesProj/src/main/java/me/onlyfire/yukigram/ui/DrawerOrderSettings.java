@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,10 +24,10 @@ import org.telegram.ui.Cells.HeaderCell;
 import java.util.ArrayList;
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.MenuOrderController;
-import me.onlyfire.yukigram.ui.Cells.AddItem;
-import me.onlyfire.yukigram.ui.Cells.HintHeader;
-import me.onlyfire.yukigram.ui.Cells.SwapOrder;
+import me.onlyfire.loligram.android.MenuOrderController;
+import me.onlyfire.loligram.ui.Cells.AddItem;
+import me.onlyfire.loligram.ui.Cells.HintHeader;
+import me.onlyfire.loligram.ui.Cells.SwapOrder;
 
 public class DrawerOrderSettings extends BaseSettingsActivity {
     private ItemTouchHelper itemTouchHelper;

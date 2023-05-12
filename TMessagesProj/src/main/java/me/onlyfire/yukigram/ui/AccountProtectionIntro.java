@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,7 +25,7 @@ import org.telegram.ui.PasscodeActivity;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import me.onlyfire.yukigram.ui.Cells.AccountSelectList;
+import me.onlyfire.loligram.ui.Cells.AccountSelectList;
 
 public class AccountProtectionIntro extends BaseFragment {
     private RLottieImageView imageView;

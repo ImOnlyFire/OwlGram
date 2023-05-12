@@ -61,8 +61,8 @@ import org.telegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.FolderIconController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.FolderIconController;
 
 public class FilterTabsView extends FrameLayout {
 

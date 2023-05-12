@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.magic;
+package me.onlyfire.loligram.android.magic;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,9 +16,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
-import me.onlyfire.yukigram.android.MenuOrderController;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.updates.PlayStoreAPI;
+import me.onlyfire.loligram.android.MenuOrderController;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.updates.PlayStoreAPI;
 
 public class OWLENC {
     public static class DrawerItems extends MagicVector<String> {

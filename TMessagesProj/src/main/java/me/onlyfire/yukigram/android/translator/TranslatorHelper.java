@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.translator;
+package me.onlyfire.loligram.android.translator;
 
 import android.text.TextUtils;
 
@@ -16,9 +16,9 @@ import org.telegram.tgnet.TLRPC;
 
 import java.util.Locale;
 
-import me.onlyfire.yukigram.android.MessageHelper;
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.entities.HTMLKeeper;
+import me.onlyfire.loligram.android.MessageHelper;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.entities.HTMLKeeper;
 
 public class TranslatorHelper {
 

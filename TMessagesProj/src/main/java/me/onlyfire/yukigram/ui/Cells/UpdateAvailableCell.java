@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells;
+package me.onlyfire.loligram.ui.Cells;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -28,7 +28,7 @@ import org.telegram.ui.Components.RadialProgressView;
 
 import java.util.Objects;
 
-import me.onlyfire.yukigram.android.http.FileDownloader;
+import me.onlyfire.loligram.android.http.FileDownloader;
 
 public class UpdateAvailableCell extends FrameLayout {
     private final BackupImageView backupImageView;

@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui.Cells.Dynamic;
+package me.onlyfire.loligram.ui.Cells.Dynamic;
 
 public class ThemeInfo {
     public final int radius;

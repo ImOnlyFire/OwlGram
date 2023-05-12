@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.updates;
+package me.onlyfire.loligram.android.updates;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.BuildConfig;
@@ -9,7 +9,7 @@ import org.telegram.tgnet.TLRPC;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class UpdateSignaling {
     public static void checkWasUpdated() {

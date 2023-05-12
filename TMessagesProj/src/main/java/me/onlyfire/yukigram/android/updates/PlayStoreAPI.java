@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android.updates;
+package me.onlyfire.loligram.android.updates;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -21,7 +21,7 @@ import org.telegram.messenger.NotificationCenter;
 
 import java.util.HashMap;
 
-import me.onlyfire.yukigram.android.OwlConfig;
+import me.onlyfire.loligram.android.OwlConfig;
 
 public class PlayStoreAPI {
     private static final AppUpdateManager appUpdateManager;

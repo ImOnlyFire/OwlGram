@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.Fonts;
+package me.onlyfire.loligram.Fonts;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

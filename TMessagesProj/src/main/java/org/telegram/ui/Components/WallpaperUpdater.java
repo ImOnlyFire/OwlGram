@@ -35,7 +35,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.PermissionsUtils;
+import me.onlyfire.loligram.android.PermissionsUtils;
 
 public class WallpaperUpdater {
 

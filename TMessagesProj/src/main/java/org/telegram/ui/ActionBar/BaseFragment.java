@@ -56,7 +56,7 @@ import org.telegram.ui.Components.LayoutHelper;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.MessageHelper;
+import me.onlyfire.loligram.android.MessageHelper;
 
 public abstract class BaseFragment {
 

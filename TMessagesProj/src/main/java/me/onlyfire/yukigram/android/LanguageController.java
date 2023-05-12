@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.android;
+package me.onlyfire.loligram.android;
 
 import android.util.Xml;
 
@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Locale;
 
-import me.onlyfire.yukigram.android.http.StandardHTTPRequest;
+import me.onlyfire.loligram.android.http.StandardHTTPRequest;
 
 public class LanguageController {
 

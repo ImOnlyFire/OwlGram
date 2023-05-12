@@ -1,4 +1,4 @@
-package me.onlyfire.yukigram.ui;
+package me.onlyfire.loligram.ui;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -29,7 +29,7 @@ import org.telegram.ui.PasscodeActivity;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.PasscodeController;
+import me.onlyfire.loligram.android.PasscodeController;
 
 public class AccountProtectionSettings extends BaseSettingsActivity {
     private int dbAnRow;

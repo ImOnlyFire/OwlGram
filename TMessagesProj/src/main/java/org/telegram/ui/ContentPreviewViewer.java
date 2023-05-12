@@ -71,8 +71,8 @@ import org.telegram.ui.Components.SuggestEmojiView;
 
 import java.util.ArrayList;
 
-import me.onlyfire.yukigram.android.OwlConfig;
-import me.onlyfire.yukigram.android.MessageHelper;
+import me.onlyfire.loligram.android.OwlConfig;
+import me.onlyfire.loligram.android.MessageHelper;
 
 public class ContentPreviewViewer {
 
