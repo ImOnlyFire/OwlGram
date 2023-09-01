@@ -1,3 +1,9 @@
+# Deprecated
+Go to https://github.com/OctoGramApp/OctoGram (https://octogram.site)
+#
+#
+#
+#
 <h1><img src="https://i.imgur.com/Fuk3KyU.png" width="150" align="left"/>❄️ YukiGram <sub><sub><sup>Yu·ki &#40;<i>Japanese</i>): snow.</sup></sub></sub></h1>
 
 [![Updates](https://img.shields.io/badge/Updates-Telegram-blue.svg)](https://t.me/yukigramapp)
